@@ -1,0 +1,50 @@
+.Box
+{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 30%;
+	border-style: solid;
+	border-color: red;
+}
+h1
+{
+	background: aqua;
+	color: black;
+	text-align: center;
+}
+.Ten
+{
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	z-index: 1;
+}
+.Jack
+{
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	z-index: 2;
+}
+.Queen
+{
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	z-index: 3;
+}
+.King
+{
+	position: absolute;
+	top: 60%;
+	left: 45%;
+	z-index: 4;
+}
+.Ace
+{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	z-index: 5;
+}

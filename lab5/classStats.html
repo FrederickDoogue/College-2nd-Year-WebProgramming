@@ -1,0 +1,36 @@
+<html>
+ 
+<head> 
+<title></title>   
+</head> 
+  
+<body>
+<script>
+var resultCount = 0;
+var validCount = 0;
+var pass = 0;
+var fail = 0;
+var input = prompt ("Enter a result between 0 and 100 (Enter -1 to exit)");
+input = parseInt(input);
+while (input != -1) {
+	resultCount++;
+	if (input >= 0 && input <= 100) {
+		validCount++;
+		if (input > 39) {
+			pass++;
+		}
+		else {
+			fail++;
+		}
+		input = prompt ("Enter a result between 0 and 100 (Enter -1 to exit)");
+		input = parseInt(input);
+	}
+	else {
+		input = prompt ("Enter a result between 0 and 100 (Enter -1 to exit)");
+		input = parseInt(input);
+	}
+}
+alert("The number of results input were " + resultCount + ", there were " + validCount + " that were vaild, " + pass + " student(s) passed ," + fail + " student(s) failed.");
+</script>
+</body> 
+</html>   

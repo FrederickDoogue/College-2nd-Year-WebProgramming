@@ -1,0 +1,51 @@
+<html>
+<head>
+<script src="task1.js"></script>
+<link rel="stylesheet" type="text/css" href="task1.css"> 
+</head>
+<body>
+<form>
+<h2>Student Form</h2>
+<p>Please fill out this form.</p>
+<br><br>
+<div class="inputbox">	<!--Name input Start-->
+	<label for="Name">Name:</label>
+	<input type="text" name="name" required id="Name" placeholder="required" pattern="([A-z\s\.]){2,}"/> <font>*Alphabetic, spaces and dots</font>
+</div>					<!--Name input End-->
+<br>
+<div class="inputbox">	<!--Address input Start-->
+	<label for="Address">Address:</label>
+	<input type="text" name="address" required id="Address" placeholder="required" pattern="([A-z\s\.\,]){2,}"/> <font>*Alpabetic, space, dots and commas</font>
+</div>					<!--Address input End-->
+<br>
+<div class="inputbox">	<!--Phone number input Start-->
+	<label for="PhoneNo">Phone Number:</label>
+	<input type="text" name="phone" id="PhoenNo" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}"/> <font>*(111) 222 3333 or 111-222-3333</font>
+</div>					<!--Phone number input End-->
+<br>
+<div class="inputbox">	<!--Email input Start-->
+	<label for="Email">Email Address:</label>
+	<input type="email" name="email" required id="Email" placeholder="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+</div>					<!--Email input End-->
+<br>
+<div class="inputbox">	<!--Confirm email input Start-->
+	<label for="ConfirmEmail">Confirm Email:</label>
+	<input type="email" name="confirmemail" required id="ConfirmEmail" placeholder="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" oninput="check(this)"/>
+</div>					<!--Confirm email input End-->
+<br>
+<div class="inputbox">	<!--DOB input Start-->
+	<label for="DOB">Date of Birth:</label>
+	<input type="date" name="dob" required id="DOB" placeholder="required" oninput="return getAge()"/> <font>*Must be 20 or over</font>
+</div>					<!--DOB input End-->
+<br>
+<div class="inputbox">	<!--Starting date input Start-->
+	<label for="StartingDate">Starting Date:</label>
+	<input type="date" name="sDate" required id="StartingDate" placeholder="required" oninput="dateCheck(this)"/>
+</div>					<!--Starting date input End-->
+<br>
+<section class="myButton">
+<input type="submit" value="Submit" name="submit"/>			
+</section>
+</form>
+</body>
+</html>

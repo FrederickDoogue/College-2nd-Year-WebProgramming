@@ -1,0 +1,34 @@
+.box1
+{
+	position: absolute;
+	bottom: 0px;
+	right: 40px;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border: dashed;
+	box-sizing: border-box;
+}
+.box2
+{
+	position: absolute;
+	top: 0px;
+	right: 25%;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+    border: ridge;
+	box-sizing: border-box;
+}
+.box3
+{
+	position: absolute;
+	top: -25px;
+	right: 30px;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border: double;
+	box-sizing: border-box;
+}
+	

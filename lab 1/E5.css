@@ -1,0 +1,11 @@
+div#div1 {
+	display: block;
+	border-style: double;
+	border-color: yellow;
+	border-width: medium;
+}
+div#div2{
+	display: block;
+	border-style: dotted;
+	border-color: green;
+}

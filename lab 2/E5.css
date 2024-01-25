@@ -1,0 +1,39 @@
+.Box
+{
+	position: relative;
+	background-color: aqua;
+	border: 3px solid blue;
+	height: 300px;
+	width: 700px;
+}
+.topright
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: red;
+}
+.topleft
+{
+	color: red;
+}
+.bottomright
+{
+	position: absolute;
+	bottom: 0%;
+	right: 0px;
+	color: red;
+}
+.bottomleft
+{
+	position: absolute;
+	bottom: 0%;
+	color: red;
+}
+.middle
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: red;
+}

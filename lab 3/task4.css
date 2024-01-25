@@ -1,0 +1,14 @@
+input[type=text] {
+	width: 100%;
+}
+input[type=email] {
+	width: 100%;
+}
+
+input[type=submit], input[type=reset] {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	cursor: pointer;
+}

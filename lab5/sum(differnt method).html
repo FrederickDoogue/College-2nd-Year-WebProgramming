@@ -1,0 +1,35 @@
+<html>
+ 
+<head> 
+<title></title>   
+</head> 
+  
+<body>
+<p>
+  Click the button to add the numbers together.
+  <button onclick="myFunction()">Try it</button>
+</p>
+<p>
+  Enter first number:
+  <input type="text" id="txt1" name="text1">
+  Enter second number:
+  <input type="text" id="txt2" name="text2">
+</p>
+<p id="demo"></p> 
+<script>
+function myFunction() {
+  var num1= document.getElementById("txt1").value;
+  var num2 = document.getElementById("txt2").value;
+  var num3 = parseInt(num1);
+  var num4 = parseInt(num2);
+  var sum = num3 + num4;
+  if(sum <= 100) {
+  document.writeln("The result is: " + sum);
+  }
+  else{
+  alert("Number is greater than 100");
+  }
+}
+</script>
+</body> 
+</html>   

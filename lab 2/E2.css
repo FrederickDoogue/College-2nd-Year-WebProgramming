@@ -1,0 +1,25 @@
+.box1
+{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border: dashed;
+	box-sizing: border-box;
+}
+.box2
+{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	border: ridge;
+	box-sizing: border-box;
+}
+.box3
+{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border: double;
+	box-sizing: border-box;
+}
+	

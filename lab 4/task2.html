@@ -1,0 +1,45 @@
+<html>  
+<head>  
+<link rel="stylesheet" type="text/css" href="task2.css"> 
+</head>  
+<body>  
+<form>
+<h2>Please Enter the Required Details</h2>
+<br><br>
+<div class="inputbox">
+<label for="First Name">First Name:</label>
+<input type="text" name="firstname" id="Fisrt Name" required autocomplete="off"/> (First Name)
+</div>
+<br>
+<div class="inputbox">
+<label for="Last Name">Last Name:</label>
+<input type="text" name="lastname" id="Last Name" required autocomplete="on"/> (Last Name)
+</div>
+<br>
+<div class="inputbox">
+<label for="Email">Email:</label>
+<input type="email" name="email" id="Email" required autocomplete="on"/> (name@domain.com)
+</div>
+<br>Birth Month: 
+<input list ="Months" name="Months">
+<datalist id="Months" >
+	<option value="January">
+	<option value="February">
+	<option value="March">
+	<option value="April">
+	<option value="May">
+	<option value="June">
+	<option value="July">
+	<option value="August">
+	<option value="October">
+	<option value="November">
+	<option value="December">
+</datalist>
+<br><br>
+<div class="myButton">
+<input type="submit" value="Send" name="submit"/>			
+<input  type="reset" value="Clear" name="reset"/>
+</div>
+</form>
+</body>  
+</html>  

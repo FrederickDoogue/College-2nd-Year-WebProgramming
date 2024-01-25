@@ -1,0 +1,12 @@
+html {
+	font-family: sans-serif;
+}
+
+textarea {
+	height: 100px;
+	width: 300px;
+}
+
+input[type=text], select {
+  border: 1px solid #ccc;
+}

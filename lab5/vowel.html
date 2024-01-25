@@ -1,0 +1,26 @@
+<html>
+<head> 
+</head> 
+<body>
+<script>
+var letterOriginal = prompt("Please enter a charcter.");
+while(letterOriginal.length != 1)
+{
+	var letterOriginal = prompt("Please enter a charcter.");
+}
+function isVowel(letterOriginal) 
+{
+	var letterUpdated = letterOriginal.toUpperCase();
+	if(letterUpdated == "A" || letterUpdated == "E" || letterUpdated == "I" || letterUpdated == "O" || letterUpdated == "U")
+	{
+		return true;
+	}
+	else 
+	{
+		return false;
+	}
+}
+alert("The statement " + letterOriginal + " is a vowel is: " + isVowel(letterOriginal));
+</script>
+</body> 
+</html>   

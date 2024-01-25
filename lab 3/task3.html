@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Form3</title>
+</head>
+
+<body>
+
+<form>
+	<h2>Student Form</h2>
+
+	<label for="Firstname">First Name:</label>
+	<input type="text" name="firstname" id="firstname"/>
+	<br><br>
+	<label for="Surname">Surname:</label>
+	<input type="text" name="surname" id="surname"/>
+	<br><br>
+	<label for="Email">Email Address:</label>
+	<input type="email" name="email" id="email" placeholder="Required" required autofocus/>
+	<br><br>
+	<label for="Website">Website Address:</label>
+	<input type="text" name="website" id="website"/>
+	<br><br>
+	<label for="DOB">Date of Birth:</label>
+	<input type="date" name="website" id="website"/>
+	<br><br>
+	<div class="dropdown">
+	Select Year:
+	<select name="schoolyear">
+	<option value="firstYear">First Year</option>
+	<option value="secondYear">Second Year</option>
+	<option value="thirdYear">Third Year</option>
+	<option value="fourthYear">Final Year</option>
+	</select>
+	</div>
+	<br>
+	<div class="checkbox1">
+	Select the course(s) taken:
+	<div class="courses">
+	<input type="checkbox" name="course" id="C1" value="Deg in Soft Eng">
+	<label for="C1">Degree in Software Engineering</label>
+	</div>
+	<div class="courses">
+	<input type="checkbox" name="course" id="C2" value="Deg in IT Mgt">
+	<label for="C2">Degree in IT Management</label>
+	</div>
+	<div class="courses">
+	<input type="checkbox" name="course" id="C3" value="Deg in Cyber">
+	<label for="C3">Degree in Cyber</label>
+	</div>
+	<div class="courses">
+	<input type="checkbox" name="course" id="C4" value="Deg in Comp Science">
+	<label for="C2">Degree in Computer Science</label>
+	</div>
+	</div>
+	<br>
+	<div class="myButton">
+	<input type="submit" value="Send Form" name="submit"/></br></br>
+	<input type="reset" value="Clear Form" name="reset"/>
+	</div>
+	</form>
+	</body>
+	</html>

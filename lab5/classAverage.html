@@ -1,0 +1,29 @@
+<html>
+ 
+<head> 
+<title></title>   
+</head> 
+  
+<body>
+<script>
+var sum = 0;
+var i = 0;
+var average
+var input = prompt ("Enter a result (Enter -1 to exit)");
+input = parseInt(input);
+if (i == 0 && input == -1) {
+	alert("No results have been entered");
+}
+else {
+	while (input != -1) {
+		sum = sum + input;
+		i++;
+		input = prompt ("Enter a result (Enter -1 to exit)");
+		input = parseInt(input);
+}
+average = sum / i;
+alert("The class average is " + average);
+}
+</script>
+</body> 
+</html>   

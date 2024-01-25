@@ -1,0 +1,21 @@
+
+li.a{
+	list-style-image: url('pic1.jpg');
+	list-style-position: inside;
+	width: auto;
+	height: auto;
+}
+
+li.b{
+	list-style-image: url('pic2.jpg');
+	list-style-position: inside;
+	width: auto;
+	height: auto;
+}
+
+li.c{
+	list-style-image: url('pic3.jpg');
+	list-style-position: inside;
+	width: auto;
+	height: auto;
+}
